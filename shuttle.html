@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Danielle Hyland</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<!-- Custom styles for this template. These styles come from an external style sheet that has been provided for you in the starting data files. -->
+<link href="carousel.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+<header>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="#">Term Project Carousel</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav mr-auto">
+	<li class="nav-item active">
+	  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" href="schedule.html">Shuttle Schedule</a>
+	</li>
+	
+  </ul>
+  <form class="form-inline mt-2 mt-md-0" id="myInput">
+	<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+</nav>
+</header>
+
+<main role="main">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#myCarousel" data-slide-to="1"></li>
+  <li data-target="#myCarousel" data-slide-to="2"></li>
+  <li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+	<img class="first-slide" src="insideBus.jpg" width="900" height="500" alt="First slide">
+	<div class="container">
+	  <div class="carousel-caption text-left">
+		<h1>Now Boarding!</h1>
+		<p>The shuttle runs Monday through Friday; but service ends at 5PM on Fridays.</p>
+		<p><a class="btn btn-lg btn-success" href="schedule.html" role="button">View Schedule</a></p>
+	  </div>
+	</div>
+  </div>
+
+  <div class="carousel-item">
+	<img class="second-slide" src="backpack.jpg" width="900" height="500" alt="Second slide">
+	<div class="container">
+	  <div class="carousel-caption" style="color: black">
+		<h1 style="color: white">Fall & Spring <span style="color: red">Only</span></h1>
+		<p style="background-color: white">The shuttle runs during the Fall & Spring semesters. It does not run during the Winter or Summer Intersessions.</p>
+		<p><a class="btn btn-lg btn-info" href="https://www.farmingdale.edu/academics/academic-calendar.shtml" target="_blank" role="button">Academic Calendar</a></p>
+	  </div>
+	</div>
+  </div>
+
+  <div class="carousel-item">
+	<img class="third-slide" src="busSnow.jpg" width="900" height="500" alt="Third slide">
+	<div class="container">
+	  <div class="carousel-caption text-right">
+		<h1>Shuttle Closures</h1>
+		<p style="background-color: black">The shuttle does not run if the campus is closed or in certain extreme weather conditions. Be sure to check ahead for unexpected closures.</p>
+		<p><a class="btn btn-lg btn-danger" href="#" role="button">Contact 631-420-2103</a></p>
+	  </div>
+	</div>
+  </div>
+
+  <div class="carousel-item">
+	<img class="third-slide" src="emptyBus.jpg" width="900" height="500" alt="Fourth slide">
+	<div class="container">
+	  <div class="carousel-caption text-right">
+		<h1>Room for All</h1>
+		<p>The shuttle holds 30 passengers. It makes stops at Laffin Hall, the Farmingdale LIRR and the Aviation Center.</p>
+		<p><a class="btn btn-lg btn-secondary" href="https://www.farmingdale.edu/about/pdf/farm_map.pdf" target="_blank" role="button">Campus Map</a></p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+<!-- Three columns of text below the carousel -->
+<div class="row">
+  <div class="col-lg-4">
+	<img class="rounded-circle" src="wallet.jpg" alt="ID Card" width="140" height="140">
+	<h2>Bring your Wallet</h2>
+	<p>Don't forget, a valid Farmingdale ID is required to board the shuttle! The driver may ask you to present your Farmingdale ID before boarding. Need to get an ID or replacement, contact the University Police to get a new ID.</p>
+	<p><a class="btn btn-danger" href="https://www.farmingdale.edu/university-police/" target="_blank" data-toggle="tooltip" data-placement="top" title="Hooray! role="button">Contact Police &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+	<img class="rounded-circle" src="luggage.jpg" alt="Luggage" width="140" height="140">
+	<h2>Luggage & Large Carry-ons</h2>
+	<p>Luggage, large bags and small motility devices are allowed on the shuttle and should be placed in the rear of the bus. Students are responsible for their own personal belongings - the driver does not load or unload baggage. The shuttles are also wheelchair accessible.</p>
+	<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+	<img class="rounded-circle" src="snacks.jpg" alt="Snacks" width="140" height="140">
+	<h2>Grab a Snack</h2>
+	<p>Where can you grab a cup of coffee, or some food in the area. Click the link below to view a Yelp list of restaurants and coffee shops in the area.</p>
+	<p><a class="btn btn-warning" href="https://www.yelp.com/search?find_desc=lunch&find_loc=Farmingdale%2C%20NY" target="_blank" role="button">View Map &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+
+<!-- START THE FEATURETTES -->
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+	<h2 class="featurette-heading">Backup Plan</h2>
+	<p class="lead">What are your options if you miss the shuttle? Here are some fares from local companies:
+	<ul>
+      <li class="lead">A taxi from Farmingdale College Laffin Hall to the Farmingdale LIRR is approximately <strong>$10.88</strong>. A taxi from the Farmingdale LIRR to the Aviation Center is approximately <strong>$10.62</strong>. You can contact LI Yellow Cab via phone at 516-249-1212.</li>
+      <li class="lead">An Uber from Farmingdale College Laffin Hall to the Farmingdale LIRR is approximately <strong>$7</strong>. An Uber from the Farmingdale LIRR to the Aviation Center is approximately <strong>$8</strong>. Fares are variable and can increase depending on demand. You can book an Uber on the mobile app, which is available on Android and iOS platforms. </li>
+      <li class="lead">A Lyft from Farmingdale College Laffin Hall to the Farmingdale LIRR is approximately <strong>$7.82</strong>. A Lyft from the Farmingdale LIRR to the Aviation Center is approximately <strong>$8.32</strong>. Fares are variable and can increase depending on demand. Lyft does frequently offer specials for 50% off fares. You can book a Lyft on the mobile app, which is available on Android and iOS platforms.</li>
+	</ul>
+	</p>
+  </div>
+  <div class="col-md-5">
+	<img class="featurette-image img-fluid mx-auto" src="uber.jpg" alt="Backup Plan image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+	<h2 class="featurette-heading">Traveling from Farmingdale LIRR</h2>
+	<p class="lead">
+	<h5>Westbound Trains</h5>
+	<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Trip</th>
+        <th>Peak</th>
+        <th>Off-Peak</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Farmingdale to Penn Station</td>
+        <td>$13.50</td>
+        <td>$9.75</td>
+      </tr>
+	  <tr>
+        <td>Farmingdale to Jamaica</td>
+        <td>$9.50</td>
+        <td>$7.00</td>
+      </tr>
+	  <tr>
+        <td>Farmingdale to Atlantic Terminal</td>
+        <td>$13.50</td>
+        <td>$9.75</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  	<h5>Eastbound Trains</h5>
+	<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Trip</th>
+        <th>Peak</th>
+        <th>Off-Peak</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Farmingdale to Brentwood</td>
+        <td>$5.75</td>
+        <td>null</td>
+      </tr>
+	  <tr>
+        <td>Farmingdale to Central Islip</td>
+        <td>$5.75</td>
+        <td>null</td>
+      </tr>
+	  <tr>
+        <td>Farmingdale to Ronkonkoma</td>
+        <td>$5.75</td>
+        <td>null</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+	
+	<p class="lead">There is no Ticket Office at the Farmingdale LIRR station, but tickets may be purchased at a Full Service Ticket Machine and a Daily Machine which are located on the south side, against the east wall of the station building. There is a Waiting Room at the station that is open weekdays from 6:00AM - 2:00PM. The easiest way to buy your tickets is through the eTix app which is available on iOS and Android platforms.
+	<p><a class="btn btn-secondary btn-lg" href="E-TixTutorial.pdf" role="button">eTix Tutorial &raquo;</a></p>
+	
+	<h5>Bus Connections:</h5>
+	<p class="lead">You can get connections to the N70 and N72 at the Farmingdale LIRR station and nearby, on Conklin Street. The bus fare is only $2.75.
+	<br>The N70, makes stops from Hempstead to Farmingdale.
+	<br>The N72, makes stops from Hempstead to Babylon.
+	</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+	<img class="featurette-image img-fluid mx-auto" src="train.jpg" alt="Train image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+	<h2 class="featurette-heading">FAQ</h2>
+	<p class="lead">
+<!-- ACCORDION -->
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          How much does the shuttle cost?
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+          The shuttle is free for all all students, faculty, staff, visitors, and alumni.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Does the shuttle run year round?
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        No, the shuttle only operates during the Fall and Spring semesters. It starts running on the first day of class, and continues through finals week. It only operates Monday-Friday.
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        How does the shuttle remain operational? Who pays for it?
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+          The shuttle is funded by the Student Transportation Fee, Auxiliary Service Corporation (ASC), and Student Government Association (SGA).
+      </div>
+    </div>
+  </div>
+
+</div>
+	</p>
+  </div>
+  <div class="col-md-5">
+	<img class="featurette-image img-fluid mx-auto" src="faq.jpg" alt="FAQ image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->
+
+
+<!-- FOOTER -->
+<footer class="container">
+<p class="float-right"><a href="#">Back to top</a></p>
+<p>Danielle Hyland &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+</main>
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+
+<!-- Tether -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+
+
+
+<!-- These scripts below are needed for the hover and pause effects, which optionally can be added to the slide show. -->
+<script>
+// Initialize tooltip component
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+// Initialize popover component
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myDIV *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>
